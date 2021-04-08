@@ -1,0 +1,15 @@
+{
+  "name": "hitx",
+  "version": "0.0.0",
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "faunadb": "^4.1.3"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.7.0",
+    "typescript": "^4.2.4"
+  }
+}

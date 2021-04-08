@@ -1,0 +1,13 @@
+# NodeJS
+/node_modules
+
+# App
+/.cache
+/dist
+/public
+
+# Vercel
+.vercel
+
+# Env
+/.env*

@@ -1,0 +1,34 @@
+{
+  "name": "iconist",
+  "version": "0.0.0",
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --noEmit --watch & micro-dev dist"
+  },
+  "dependencies": {
+    "@obr/dripicons": "0.0.1",
+    "@obr/emojitwo": "0.0.1",
+    "@obr/feathericons": "0.0.1",
+    "@obr/fontawesome": "0.0.1",
+    "@obr/heroicons": "0.0.1",
+    "@obr/ikonate": "0.0.1",
+    "@obr/linearicons": "0.0.1",
+    "@obr/lineawesome": "0.0.1",
+    "@obr/notoemoji": "^0.0.1",
+    "@obr/openmoji": "0.0.1",
+    "@obr/remixicon": "0.0.1",
+    "@obr/svgporn": "0.0.1",
+    "@obr/twemoji": "^0.0.1",
+    "cheerio": "^1.0.0-rc.5",
+    "fast-glob": "^3.2.4"
+  },
+  "devDependencies": {
+    "@now/node": "^1.8.5",
+    "@types/cheerio": "^0.22.28",
+    "@types/feather-icons": "^4.7.0",
+    "micro": "^9.3.4",
+    "micro-dev": "^3.0.0",
+    "typescript": "^4.2.4"
+  }
+}

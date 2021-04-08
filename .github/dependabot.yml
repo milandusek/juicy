@@ -1,0 +1,114 @@
+version: 2
+updates:
+
+# services
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/avatarless"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/coloring"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/corsless"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/czws"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/fcbk"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/flyx"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/githubber"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/heatbadger"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/hitx"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/iconist"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/insigne"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/instafetch"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/instaphp"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/intex"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/juicy"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/macmoji"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/oggo"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/packagist"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/pdfx"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/phpstan"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/qrx"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/showcase"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/services/socky"
+  schedule:
+    interval: daily
+
+# Runtimes
+- package-ecosystem: npm
+  directory: "/runtimes/debug"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/runtimes/md"
+  schedule:
+    interval: daily
+- package-ecosystem: npm
+  directory: "/runtimes/plain"
+  schedule:
+    interval: daily
