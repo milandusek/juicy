@@ -9,7 +9,7 @@ export default async function handler(req: NowRequest, res: NowResponse) {
     res.setHeader("Cache-Control", "max-age=1, s-maxage=1, stale-while-revalidate");
     var data = [];
     for (var i = 0; i < 100; i++) {
-            data.push(i);
+            data.push(Math.random());
         }
     var obj = { hello: "world", data: data};
     
